@@ -21,7 +21,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
 	 purr(){
-		this.makeSound("woof")
+		this.makeSound("purr")
 	}
 }
 
