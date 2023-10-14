@@ -13,13 +13,14 @@ class Animal {
 }
 
 class Dog extends Animal {
-	 purr(){
+	
+	bark(){
 		this.makeSound("woof")
 	}
 }
 
 class Cat extends Animal {
-	bark(){
+	 purr(){
 		this.makeSound("woof")
 	}
 }
